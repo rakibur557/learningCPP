@@ -28,6 +28,14 @@ int main()
     {
         cout<<vec[i]<<" ";
     }
+    cout<<endl;
+
+    ///name(3,0); here 3 is size of vector and 0 means all the value will be zero
+    vector <int> name(3,0);
+     for(int i=0; i<name.size(); i++)
+    {
+        cout<<name[i]<<" ";
+    }
 
     return 0;
 }
